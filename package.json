@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-general-css": "npx tailwindcss -i ./src/general.css -o ./dist/assets/css/general.min.css --watch",
-    "build-custom-css": "npx tailwindcss -i ./src/custom.css -o ./dist/assets/css/custom.min.css --watch"
+    "general-css": "npx tailwindcss -i ./src/general.css -o ./dist/assets/css/general.min.css --watch",
+    "custom-css": "npx tailwindcss -i ./src/custom.css -o ./dist/assets/css/custom.min.css --watch"
   },
   "keywords": [],
   "author": "",
